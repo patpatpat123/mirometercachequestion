@@ -1,0 +1,8 @@
+#This is the first call, it should take long
+POST http://localhost:8080/question
+Content-Type: application/json
+
+{
+  "customerId": "abc",
+  "itemId": "def"
+}

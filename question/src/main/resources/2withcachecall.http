@@ -1,0 +1,8 @@
+#This is the second call. With cache, it should be fast
+POST http://localhost:8080/question
+Content-Type: application/json
+
+{
+  "customerId": "abc",
+  "itemId": "def"
+}
